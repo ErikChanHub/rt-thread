@@ -13,6 +13,15 @@
 #include <rtdevice.h>
 
 #define LED1_PIN    BSP_IO_PORT_02_PIN_07 /* Onboard LED pins */
+#include <rtthread.h>
+#include <fal.h>
+#include <flashdb.h>
+
+#if !defined(FSP_HEADER_INCLUDED_FROM_API_HEADER)
+#define FSP_HEADER_INCLUDED_FROM_API_HEADER      (1)
+#endif
+#include "hal_data.h"
+
 void hal_entry(void)
 {
     rt_kprintf("\nHello RT-Thread!\n");
@@ -25,4 +34,3 @@ void hal_entry(void)
         rt_thread_mdelay(500);
     }
 }
-

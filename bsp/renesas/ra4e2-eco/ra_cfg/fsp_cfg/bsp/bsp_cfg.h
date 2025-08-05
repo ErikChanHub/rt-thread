@@ -60,4 +60,3 @@
             }
             #endif
 #endif /* BSP_CFG_H_ */
-

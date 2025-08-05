@@ -3,4 +3,3 @@
 #define BOARD_CFG_H_
 #include "../../../ra/board/ra4e2_fpb/board.h"
 #endif /* BOARD_CFG_H_ */
-

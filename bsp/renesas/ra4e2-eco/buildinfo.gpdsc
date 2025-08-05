@@ -11,6 +11,15 @@
     <generator id="Renesas RA Smart Configurator">
       <project_files>
         <file category="include" name="src/"/>
+        <file category="source" name="src/applications/encoder.c"/>
+        <file category="source" name="src/applications/key.c"/>
+        <file category="source" name="src/applications/kvdb_basic_sample.c"/>
+        <file category="source" name="src/applications/mpu6050_demo.c"/>
+        <file category="other" name="src/applications/SConscript"/>
+        <file category="source" name="src/applications/sensor.c"/>
+        <file category="other" name="src/coredump/SConscript"/>
+        <file category="source" name="src/coredump.c"/>
+        <file category="source" name="src/demo.c"/>
         <file category="source" name="src/hal_entry.c"/>
       </project_files>
     </generator>
@@ -71,12 +80,19 @@
         <file category="header" name="ra/board/ra4e2_fpb/board_leds.h" path=""/>
         <file category="header" name="ra/fsp/inc/api/bsp_api.h" path=""/>
         <file category="header" name="ra/fsp/inc/api/fsp_common_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_cgc_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_external_irq_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_flash_api.h" path=""/>
+        <file category="header" name="ra/fsp/inc/api/r_i2c_master_api.h" path=""/>
         <file category="header" name="ra/fsp/inc/api/r_ioport_api.h" path=""/>
         <file category="header" name="ra/fsp/inc/api/r_transfer_api.h" path=""/>
         <file category="header" name="ra/fsp/inc/api/r_uart_api.h" path=""/>
         <file category="header" name="ra/fsp/inc/fsp_features.h" path=""/>
         <file category="header" name="ra/fsp/inc/fsp_version.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_flash_hp.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_icu.h" path=""/>
         <file category="header" name="ra/fsp/inc/instances/r_ioport.h" path=""/>
+        <file category="header" name="ra/fsp/inc/instances/r_sci_i2c.h" path=""/>
         <file category="header" name="ra/fsp/inc/instances/r_sci_uart.h" path=""/>
         <file category="header" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/R7FA4E2B9.h" path=""/>
         <file category="header" name="ra/fsp/src/bsp/cmsis/Device/RENESAS/Include/renesas.h" path=""/>
@@ -133,9 +149,13 @@
         <file category="header" name="ra/fsp/src/bsp/mcu/ra4e2/bsp_feature.h" path=""/>
         <file category="header" name="ra/fsp/src/bsp/mcu/ra4e2/bsp_mcu_info.h" path=""/>
         <file category="header" name="ra/fsp/src/bsp/mcu/ra4e2/bsp_peripheral.h" path=""/>
+        <file category="source" name="ra/fsp/src/r_flash_hp/r_flash_hp.c"/>
+        <file category="other" name="ra/fsp/src/r_flash_hp/r_flash_hp.o"/>
+        <file category="source" name="ra/fsp/src/r_icu/r_icu.c"/>
         <file category="other" name="ra/fsp/src/r_icu/r_icu.o"/>
         <file category="source" name="ra/fsp/src/r_ioport/r_ioport.c"/>
         <file category="other" name="ra/fsp/src/r_ioport/r_ioport.o"/>
+        <file category="source" name="ra/fsp/src/r_sci_i2c/r_sci_i2c.c"/>
         <file category="other" name="ra/fsp/src/r_sci_i2c/r_sci_i2c.o"/>
         <file category="source" name="ra/fsp/src/r_sci_uart/r_sci_uart.c"/>
         <file category="other" name="ra/fsp/src/r_sci_uart/r_sci_uart.o"/>
@@ -152,7 +172,10 @@
         <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_mcu_device_pn_cfg.h" path=""/>
         <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_mcu_family_cfg.h" path=""/>
         <file category="header" name="ra_cfg/fsp_cfg/bsp/bsp_pin_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_flash_hp_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_icu_cfg.h" path=""/>
         <file category="header" name="ra_cfg/fsp_cfg/r_ioport_cfg.h" path=""/>
+        <file category="header" name="ra_cfg/fsp_cfg/r_sci_i2c_cfg.h" path=""/>
         <file category="header" name="ra_cfg/fsp_cfg/r_sci_uart_cfg.h" path=""/>
         <file category="other" name="ra_cfg/SConscript"/>
       </files>

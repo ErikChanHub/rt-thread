@@ -1,0 +1,15 @@
+Import('RTT_ROOT')
+from building import *
+
+cwd = GetCurrentDir()
+
+# 收集源文件
+src = Glob('*.c')
+
+# 定义编译选项
+CPPPATH = [cwd]
+
+# 定义构建组
+group = DefineGroup('coredump', src, depend = [''], CPPPATH = CPPPATH)
+
+Return('group')

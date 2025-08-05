@@ -1,0 +1,197 @@
+T77C4 000:379.099   SEGGER J-Link V7.96f Log File
+T77C4 000:380.434   DLL Compiled: Apr 24 2024 14:09:24
+T77C4 000:380.477   Logging started @ 2025-08-04 00:42
+T77C4 000:380.517   Process: C:\Keil_v5\UV4\UV4.exe
+T77C4 000:380.763 - 380.555ms
+T77C4 000:381.102 JLINK_SetWarnOutHandler(...)
+T77C4 000:381.160 - 0.325ms
+T77C4 000:381.212 JLINK_OpenEx(...)
+T77C4 000:393.237   Firmware: J-Link OB-RA4M2-Full compiled Apr 23 2024 10:48:41
+T77C4 000:396.845   Firmware: J-Link OB-RA4M2-Full compiled Apr 23 2024 10:48:41
+T77C4 000:429.826   Hardware: V1.00
+T77C4 000:430.046   S/N: 1122250302
+T77C4 000:430.171   OEM: SEGGER
+T77C4 000:430.364   Feature(s): GDB, FlashDL, FlashBP, JFlash
+T77C4 000:441.924   Bootloader: 2021 May 14
+T77C4 000:476.303   USB speed mode: Full speed (12 MBit/s)
+T77C4 000:478.028   TELNET listener socket opened on port 19021
+T77C4 000:478.871   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T77C4 000:479.017   WEBSRV Failed to put socket into listener state (port 19080)
+T77C4 000:479.197   WEBSRV Webserver running on local port 19081
+T77C4 000:479.616   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T77C4 000:480.023   Looking for J-Link GUI Server exe at: C:\Program Files\SEGGER\JLink_V796f\JLinkGUIServer.exe
+T77C4 000:480.247   Forking J-Link GUI Server: C:\Program Files\SEGGER\JLink_V796f\JLinkGUIServer.exe
+T77C4 000:524.928   J-Link GUI Server info: "J-Link GUI server V7.96f "
+T77C4 000:543.309 - 144.297ms returns "O.K."
+T77C4 000:543.678 JLINK_GetEmuCaps()
+T77C4 000:543.754 - 0.069ms returns 0xB8EA5A33
+T77C4 000:543.838 JLINK_TIF_GetAvailable(...)
+T77C4 000:544.712 - 0.873ms
+T77C4 000:544.864 JLINK_SetErrorOutHandler(...)
+T77C4 000:544.907 - 0.044ms
+T77C4 000:545.699 JLINK_ExecCommand("ProjectFile = "D:\9_OpenSource\github\rt-thread\bsp\renesas\ra4e2-eco\JLinkSettings.ini"", ...). 
+T77C4 000:608.307 - 62.613ms returns 0x00
+T77C4 000:608.468 JLINK_ExecCommand("Device = R7FA4E2B9", ...). 
+T77C4 000:610.487   Flash bank @ 0x0100A100: SFL: Parsing sectorization info from ELF file
+T77C4 000:610.575     FlashDevice.SectorInfo[0]: .SectorSize = 0x00000010, .SectorStartAddr = 0x00000000
+T77C4 000:610.632   FlashBank @0x0100A100: Sectorization info from SFL ELF file ignored because sectorization override from DLL / XML file is active.
+T77C4 000:612.300   Device "R7FA4E2B9" selected.
+T77C4 000:613.067 - 4.550ms returns 0x00
+T77C4 000:613.124 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T77C4 000:613.172 - 0.003ms returns 0x01
+T77C4 000:613.218 JLINK_GetHardwareVersion()
+T77C4 000:613.257 - 0.039ms returns 10000
+T77C4 000:613.304 JLINK_GetDLLVersion()
+T77C4 000:613.341 - 0.042ms returns 79606
+T77C4 000:613.385 JLINK_GetOEMString(...)
+T77C4 000:613.428 JLINK_GetFirmwareString(...)
+T77C4 000:613.465 - 0.037ms
+T77C4 000:613.510 JLINK_GetDLLVersion()
+T77C4 000:613.547 - 0.036ms returns 79606
+T77C4 000:613.589 JLINK_GetCompileDateTime()
+T77C4 000:613.627 - 0.038ms
+T77C4 000:613.672 JLINK_GetFirmwareString(...)
+T77C4 000:613.810 - 0.137ms
+T77C4 000:613.851 JLINK_GetHardwareVersion()
+T77C4 000:613.887 - 0.036ms returns 10000
+T77C4 000:613.929 JLINK_GetSN()
+T77C4 000:613.966 - 0.036ms returns 1122250302
+T77C4 000:614.007 JLINK_GetOEMString(...)
+T77C4 000:614.063 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T77C4 000:618.055 - 3.992ms returns 0x00
+T77C4 000:618.197 JLINK_HasError()
+T77C4 000:618.263 JLINK_SetSpeed(5000)
+T77C4 000:618.952 - 0.690ms
+T77C4 000:619.879 JLINK_HasError()
+T77C4 000:619.956 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T77C4 000:619.995 - 0.038ms returns JLINKARM_RESET_TYPE_NORMAL
+T77C4 000:620.035 JLINK_Reset()
+T77C4 000:621.182   ConfigTargetSettings() start
+T77C4 000:621.343    J-Link Script File: Executing ConfigTargetSettings()
+T77C4 000:621.786   Configuring FlashDLNoRMWThreshold=0x200 in order to make sure that option bytes programming is done via read-modify-write
+T77C4 000:664.848   ConfigTargetSettings() end - Took 43.4ms
+T77C4 000:665.021   InitTarget() start
+T77C4 000:665.108    J-Link Script File: Executing InitTarget()
+T77C4 000:665.244   SWD selected. Executing JTAG -> SWD switching sequence.
+T77C4 000:671.683   DAP initialized successfully.
+T77C4 000:675.542   Authentication not required. Skipping authentication process.
+T77C4 000:675.641   Determining TrustZone configuration...
+T77C4 000:679.465     Secure Debug: Enabled (SSD)
+T77C4 000:679.583   Determining currently configured transfer type by reading the AHB-AP CSW register.
+T77C4 000:682.404     --> Correct transfer type configured. Done.
+T77C4 000:682.505   InitTarget() end - Took 17.3ms
+T77C4 000:684.868   Found SW-DP with ID 0x6BA02477
+T77C4 000:692.235   DPIDR: 0x6BA02477
+T77C4 000:692.326   CoreSight SoC-400 or earlier
+T77C4 000:692.385   Scanning AP map to find all available APs
+T77C4 000:695.056   AP[2]: Stopped AP scan as end of AP map has been reached
+T77C4 000:695.534   AP[0]: AHB-AP (IDR: 0x84770001)
+T77C4 000:695.620   AP[1]: APB-AP (IDR: 0x54770002)
+T77C4 000:695.680   Iterating through AP map to find AHB-AP to use
+T77C4 000:697.729   AP[0]: Core found
+T77C4 000:697.815   AP[0]: AHB-AP ROM base: 0xE00FE000
+T77C4 000:698.803   CPUID register: 0x410FD214. Implementer code: 0x41 (ARM)
+T77C4 000:698.909   Feature set: Mainline
+T77C4 000:699.959   Cache: No cache
+T77C4 000:700.385   Found Cortex-M33 r0p4, Little endian.
+T77C4 000:702.050   -- Max. mem block: 0x0001D568
+T77C4 000:706.749   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T77C4 000:707.760   CPU_ReadMem(4 bytes @ 0xE0002000)
+T77C4 000:708.727   FPUnit: 8 code (BP) slots and 0 literal slots
+T77C4 000:708.826   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T77C4 000:709.779   CPU_ReadMem(4 bytes @ 0xE0001000)
+T77C4 000:710.705   CPU_ReadMem(4 bytes @ 0xE0001000)
+T77C4 000:711.706   CPU_ReadMem(4 bytes @ 0xE0001028)
+T77C4 000:712.740   CPU_ReadMem(4 bytes @ 0xE0001038)
+T77C4 000:713.712   CPU_ReadMem(4 bytes @ 0xE0001048)
+T77C4 000:714.725   CPU_ReadMem(4 bytes @ 0xE0001058)
+T77C4 000:715.690   CPU_WriteMem(4 bytes @ 0xE0001000)
+T77C4 000:716.750   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T77C4 000:717.708   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T77C4 000:718.716   CPU_ReadMem(4 bytes @ 0xE000ED88)
+T77C4 000:719.725   CPU_WriteMem(4 bytes @ 0xE000ED88)
+T77C4 000:720.757   CPU_ReadMem(4 bytes @ 0xE000EFB8)
+T77C4 000:721.864   Security extension: implemented
+T77C4 000:722.020   Secure debug: enabled
+T77C4 000:722.154   CoreSight components:
+T77C4 000:722.255   ROMTbl[0] @ E00FE000
+T77C4 000:722.359   CPU_ReadMem(64 bytes @ 0xE00FE000)
+T77C4 000:723.717   CPU_ReadMem(32 bytes @ 0xE0044FE0)
+T77C4 000:724.842   CPU_ReadMem(4 bytes @ 0xE0044FBC)
+T77C4 000:726.092   CPU_ReadMem(4 bytes @ 0xE0044FCC)
+T77C4 000:727.273   [0][0]: E0044000 CID B105900D PID 005BB906 DEVARCH 00000000 DEVTYPE 14 CTI (?)
+T77C4 000:727.396   CPU_ReadMem(32 bytes @ 0xE0047FE0)
+T77C4 000:728.402   CPU_ReadMem(4 bytes @ 0xE0047FBC)
+T77C4 000:729.347   CPU_ReadMem(4 bytes @ 0xE0047FCC)
+T77C4 000:730.340   [0][1]: E0047000 CID B105900D PID 003BB908 DEVARCH 00000000 DEVTYPE 12 CSTF
+T77C4 000:730.407   CPU_ReadMem(32 bytes @ 0xE0048FE0)
+T77C4 000:731.445   CPU_ReadMem(4 bytes @ 0xE0048FBC)
+T77C4 000:732.373   CPU_ReadMem(4 bytes @ 0xE0048FCC)
+T77C4 000:733.371   [0][2]: E0048000 CID B105900D PID 001BB961 DEVARCH 00000000 DEVTYPE 21 ETB
+T77C4 000:733.467   CPU_ReadMem(32 bytes @ 0xE0049FE0)
+T77C4 000:734.524   [0][3]: E0049000 CID B105F00D PID 001BB101 TSG
+T77C4 000:734.619   CPU_ReadMem(32 bytes @ 0xE0040FE0)
+T77C4 000:735.736   CPU_ReadMem(4 bytes @ 0xE0040FBC)
+T77C4 000:736.583   CPU_ReadMem(4 bytes @ 0xE0040FCC)
+T77C4 000:737.611   [0][4]: E0040000 CID B105900D PID 000BBD21 DEVARCH 00000000 DEVTYPE 11 TPIU
+T77C4 000:737.786   CPU_ReadMem(32 bytes @ 0xE00FFFE0)
+T77C4 000:738.899   [0][5]: E00FF000 CID B105100D PID 000BB4C9 ROM Table
+T77C4 000:738.994   ROMTbl[1] @ E00FF000
+T77C4 000:739.052   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T77C4 000:740.196   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T77C4 000:741.527   CPU_ReadMem(4 bytes @ 0xE000EFBC)
+T77C4 000:742.512   CPU_ReadMem(4 bytes @ 0xE000EFCC)
+T77C4 000:743.516   [1][0]: E000E000 CID B105900D PID 000BBD21 DEVARCH 47702A04 DEVTYPE 00 Cortex-M33
+T77C4 000:743.627   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T77C4 000:744.741   CPU_ReadMem(4 bytes @ 0xE0001FBC)
+T77C4 000:745.757   CPU_ReadMem(4 bytes @ 0xE0001FCC)
+T77C4 000:746.711   [1][1]: E0001000 CID B105900D PID 000BBD21 DEVARCH 47701A02 DEVTYPE 00 DWT
+T77C4 000:746.822   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T77C4 000:747.870   CPU_ReadMem(4 bytes @ 0xE0002FBC)
+T77C4 000:748.741   CPU_ReadMem(4 bytes @ 0xE0002FCC)
+T77C4 000:749.718   [1][2]: E0002000 CID B105900D PID 000BBD21 DEVARCH 47701A03 DEVTYPE 00 FPB
+T77C4 000:749.802   CPU_ReadMem(32 bytes @ 0xE0000FE0)
+T77C4 000:750.858   CPU_ReadMem(4 bytes @ 0xE0000FBC)
+T77C4 000:751.698   CPU_ReadMem(4 bytes @ 0xE0000FCC)
+T77C4 000:752.711   [1][3]: E0000000 CID B105900D PID 000BBD21 DEVARCH 47701A01 DEVTYPE 43 ITM
+T77C4 000:752.820   CPU_ReadMem(32 bytes @ 0xE0041FE0)
+T77C4 000:753.877   CPU_ReadMem(4 bytes @ 0xE0041FBC)
+T77C4 000:754.871   CPU_ReadMem(4 bytes @ 0xE0041FCC)
+T77C4 000:755.785   [1][5]: E0041000 CID B105900D PID 002BBD21 DEVARCH 47724A13 DEVTYPE 13 ETM
+T77C4 000:755.848   CPU_ReadMem(32 bytes @ 0xE0042FE0)
+T77C4 000:756.954   CPU_ReadMem(4 bytes @ 0xE0042FBC)
+T77C4 000:757.822   CPU_ReadMem(4 bytes @ 0xE0042FCC)
+T77C4 000:758.821   [1][6]: E0042000 CID B105900D PID 000BBD21 DEVARCH 47701A14 DEVTYPE 14 CSS600-CTI
+T77C4 000:776.848   CPU is running
+T77C4 000:777.016   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T77C4 000:778.220   CPU_ReadMem(4 bytes @ 0xE000ED44)
+T77C4 000:779.233   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T77C4 000:780.190   CPU is running
+T77C4 000:780.254   CPU_WriteMem(4 bytes @ 0xE000EE08)
+T77C4 000:781.220   Reset: ARMv8M core with Security Extension enabled detected.
+T77C4 000:781.281   CPU is running
+T77C4 000:781.339   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T77C4 000:782.171   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T77C4 000:783.957   Reset: Reset device via AIRCR.SYSRESETREQ.
+T77C4 000:784.067   CPU is running
+T77C4 000:784.168   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T77C4 000:841.582   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T77C4 000:842.537   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T77C4 000:848.570   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T77C4 000:855.388   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T77C4 000:861.313   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T77C4 000:862.578   CPU_WriteMem(4 bytes @ 0xE0002000)
+T77C4 000:863.627   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T77C4 000:864.612   CPU_ReadMem(4 bytes @ 0xE0001000)
+T77C4 000:865.631   CPU_ReadMem(4 bytes @ 0xE000EE08)
+T77C4 000:866.621 - 246.585ms
+T77C4 000:866.779 JLINK_GetId()
+T77C4 000:867.656 - 0.876ms returns 0x6BA02477
+T77C4 000:897.673 JLINK_GetFirmwareString(...)
+T77C4 000:897.794 - 0.120ms
+T77C4 115:535.960 JLINK_Close()
+T77C4 115:537.240   CPU_ReadMem(4 bytes @ 0xE0001000)
+T77C4 115:538.280   CPU_WriteMem(4 bytes @ 0xE0001004)
+T77C4 115:543.152 - 7.196ms
+T77C4 115:543.272   
+T77C4 115:543.312   Closed

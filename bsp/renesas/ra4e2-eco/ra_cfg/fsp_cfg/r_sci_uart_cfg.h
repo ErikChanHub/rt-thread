@@ -15,4 +15,3 @@
             }
             #endif
 #endif /* R_SCI_UART_CFG_H_ */
-

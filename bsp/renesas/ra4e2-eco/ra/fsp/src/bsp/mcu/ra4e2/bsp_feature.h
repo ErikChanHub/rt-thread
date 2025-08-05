@@ -299,7 +299,7 @@
 #define BSP_FEATURE_FLASH_HP_CF_REGION0_BLOCK_SIZE                (0x2000UL)        /* Block size of region 0. */
 #define BSP_FEATURE_FLASH_HP_CF_REGION0_SIZE                      (0x00010000UL)    /* Size of region 0. */
 #define BSP_FEATURE_FLASH_HP_CF_REGION1_BLOCK_SIZE                (0x8000UL)        /* Block size of region 1. */
-#define BSP_FEATURE_FLASH_HP_CF_WRITE_SIZE                        (128UL)           /* Write size for code flash. */
+#define BSP_FEATURE_FLASH_HP_CF_WRITE_SIZE                        (0x10UL)           /* Write size for code flash. */
 #define BSP_FEATURE_FLASH_HP_DF_BLOCK_SIZE                        (64UL)            /* Block size of data flash. */
 #define BSP_FEATURE_FLASH_HP_DF_WRITE_SIZE                        (4UL)             /* Write size for data flash. */
 #define BSP_FEATURE_FLASH_HP_HAS_BANKSEL                          (0UL)             /* BANKSEL, BANKSEL_SEC and BANKSEL_SEL registers are present. */

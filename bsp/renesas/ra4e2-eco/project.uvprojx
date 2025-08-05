@@ -2448,6 +2448,56 @@
               <FileType>1</FileType>
               <FilePath>.\src\hal_entry.c</FilePath>
             </File>
+            <File>
+              <FileName>encoder.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\applications\encoder.c</FilePath>
+            </File>
+            <File>
+              <FileName>key.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\applications\key.c</FilePath>
+            </File>
+            <File>
+              <FileName>kvdb_basic_sample.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\applications\kvdb_basic_sample.c</FilePath>
+            </File>
+            <File>
+              <FileName>mpu6050_demo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\applications\mpu6050_demo.c</FilePath>
+            </File>
+            <File>
+              <FileName>SConscript</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\applications\SConscript</FilePath>
+            </File>
+            <File>
+              <FileName>sensor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\applications\sensor.c</FilePath>
+            </File>
+            <File>
+              <FileName>SConscript</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\src\coredump\SConscript</FilePath>
+            </File>
+            <File>
+              <FileName>coredump.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\coredump.c</FilePath>
+            </File>
+            <File>
+              <FileName>demo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\demo.c</FilePath>
+            </File>
+            <File>
+              <FileName>fal_cfg.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\src\fal_cfg.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

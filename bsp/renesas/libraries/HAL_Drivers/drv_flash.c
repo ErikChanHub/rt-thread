@@ -228,7 +228,7 @@ bool calculate_block_num(int no, size_t addr, size_t size, void *erase_addr, voi
     level = rt_hw_interrupt_disable();
     R_FLASH_Reset(&g_flash_ctrl);
 
-    fal_block_iter(&_onchip_flash_hp0, &calculate_block_num, (void *)addr, (void *)size, &block_num);
+    fal_block_iter(&ra4e2_onchip_flash, &calculate_block_num, (void *)addr, (void *)size, &block_num);
 
     /* Erase Block */
 #if BSP_FEATURE_FLASH_HP_VERSION
